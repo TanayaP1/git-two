@@ -5,7 +5,7 @@ Created on Fri Sep  3 17:00:31 2021
 @author: Tanaya Palandurkar
 """
 
-import numpy as np
+import numpy
 import cv2
 
 img = cv2.imread("messi5.jpg")
@@ -27,4 +27,4 @@ dst = cv2.addWeighted(img, 0.1, img2, 0.1, 0)
 cv2.imshow("imgae", dst)
 
 cv2.waitKey(0)
-cv2.destroyAllWindows()       
+cv2.destroyAllWindows()
